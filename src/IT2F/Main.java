@@ -8,8 +8,6 @@ public class Main {
         String colorMyCar = myCar.color; // called color from myCar object
         //stored on colorMyCar=
 
-        System.out.println(colorMyCar); //printed on console
-        myCar.start("Sasama ako sa aquaintance",5);
-
+        System.out.println(Car.userName);
     }
 }

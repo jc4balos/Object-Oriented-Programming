@@ -3,12 +3,10 @@ package IT2F;
 public class Car {
     //attribute
     public String color="pink";
-
+    public static final String userName= "123";
     //method
-    public void start(String message, int numberOfTimes){
-        for(int i= 1; i <=numberOfTimes;i++){
-            System.out.println(message);
-        }
+    public void setColor(String colorToBeSet){
+        this.color=colorToBeSet;
     }
 
 }
