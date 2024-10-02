@@ -9,8 +9,8 @@ public class Main {
         //create an instance of an object
         Car lamborghini = new Car();
         //called the start method
-        lamborghini.startEngine();
-        lamborghini.printString("Hello World");
-        System.out.println(lamborghini.color);
+//        lamborghini.startEngine();
+        lamborghini.printString("Hello World",5);
+//        System.out.println(lamborghini.color);
     }
 }
