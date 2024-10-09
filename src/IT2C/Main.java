@@ -1,13 +1,17 @@
 package IT2C;
 
 
-import IT2C.Encapsulation.User;
+import IT2C.User;
 
 public class Main {
 
     public static void main(String[] args) {
-        IT2C.Encapsulation.User user = new User();
-        user.printData();
+
+        //Object Creation
+        //ClassName objectName
+        User user = new User();
+        user.printInput("Ang sarap maging IT");
+        System.out.println(user.age);
 
 
     }
