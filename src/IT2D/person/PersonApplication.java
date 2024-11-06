@@ -11,6 +11,14 @@ public class PersonApplication {
         //print the value of username
         System.out.println(uname);
 
+        jonathan.printDetails();
+        jonathan.printDetails();
+        jonathan.printDetails();
+        jonathan.printDetails();
+        jonathan.printDetails();
+        jonathan.printDetails();
+
+
 
     }
 }

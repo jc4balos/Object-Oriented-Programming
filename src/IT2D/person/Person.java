@@ -6,9 +6,17 @@ public class Person {
     private String password;
 
 
+    public void printDetails() {
+        System.out.println("Username: " +getUsername() + " Password: " +getPassword());
+    }
+
     public Person(String inputName, String inputPassword) {
         this.username = inputName;
         this.password = inputPassword;
+    }
+
+    private String getPassword() {
+        return password;
     }
 
     public String getUsername() {
