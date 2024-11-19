@@ -1,8 +1,8 @@
-package IT2H.vehicle;
+package IT2H.vehicle.car;
 
 public class Car {
-    public float distanceTraveledKm =0;
-    public int numberOfDoors;
+    private float distanceTraveledKm =0;
+    private int numberOfDoors;
 
     public Car(float distanceTraveled, int doors){
         //changed the values of attributes
@@ -10,9 +10,10 @@ public class Car {
         this.numberOfDoors=doors;
         //printed object is created
         System.out.println("An Object of Car is created");
+        drive(10F);
     }
 
-    public void drive(float distanceTraveled) {
+     private void drive(float distanceTraveled) {
         this.distanceTraveledKm = this.distanceTraveledKm + distanceTraveled;
     }
 
