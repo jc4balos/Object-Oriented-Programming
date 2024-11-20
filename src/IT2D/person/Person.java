@@ -1,7 +1,7 @@
 package IT2D.person;
 
 
-public class Person {
+class Person {
     private String username;
     private String password;
 
