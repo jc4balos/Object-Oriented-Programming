@@ -7,7 +7,7 @@ public class CarApplication {
     public static void main(String[] args) {
         //Created an object instance
         Car redCar = new Car(10.4F,4);
-
+        System.out.println(redCar.getDistanceTraveledKm());
 
 
     }

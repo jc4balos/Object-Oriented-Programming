@@ -17,4 +17,8 @@ public class Car {
         this.distanceTraveledKm = this.distanceTraveledKm + distanceTraveled;
     }
 
+    public float getDistanceTraveledKm(){
+        return distanceTraveledKm;
+    }
+
 }
