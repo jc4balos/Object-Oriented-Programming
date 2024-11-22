@@ -2,7 +2,7 @@ package IT2F.vehicle.car.inheritance;
 
 public class Vehicle {
 
-    private int numberOfWheels;
+    protected int numberOfWheels;
     private int numberOfDoors;
     private String color;
     public String name;
@@ -30,6 +30,7 @@ public class Vehicle {
     public void setNumberOfWheels(int numberOfWheels) {
         this.numberOfWheels = numberOfWheels;
     }
+
 
     public int getNumberOfDoors() {
         return numberOfDoors;

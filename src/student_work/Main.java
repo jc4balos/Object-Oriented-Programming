@@ -4,7 +4,6 @@ public class Main {
         Person myPerson = new Person();
 //       myPerson.setName = "Mark";
 //        System.out.println(myPerson.getName);
-
     }
 
 }
