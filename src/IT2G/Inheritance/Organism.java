@@ -1,13 +1,9 @@
 package IT2G.Inheritance;
 
 public class Organism {
-    private String species;
-
-    public String getSpecies() {
-        return species;
+    public void printText(){
+        System.out.println("Printed text in superclass");
     }
 
-    public void setSpecies(String species) {
-        this.species = species;
-    }
 }
+

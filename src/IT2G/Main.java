@@ -1,11 +1,16 @@
 package IT2G;
 
 
+import IT2G.Inheritance.Organism;
 import IT2G.Inheritance.Person;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args){
-       Person person1  = new Person("Jomar");
+        Organism thisPerson = new Person();
+        thisPerson.printText();
+
     }
 
 }
