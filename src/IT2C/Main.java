@@ -7,18 +7,16 @@ import IT2C.polymorphism.Cat;
 public class Main {
 
     public static void main(String[] args) {
-//        Dog animal = new Dog();
-//        animal.setName("Kambing");
-//        System.out.println(animal.getName());
-
-//        Lion l = new Lion();
-//        l.setName("Lion");
-//        System.out.println(l.getName());
-
-        Cat cat = new Cat();
-        cat.makeSound();
-//        System.out.println(cat.na);
+        System.out.println(Printer.name);
 
     }
 
+}
+class Printer {
+
+    static String name = "Shecaina";
+
+    static void print(String sound){
+        System.out.println(sound);
+    }
 }

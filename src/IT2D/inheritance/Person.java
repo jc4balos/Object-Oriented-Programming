@@ -1,7 +1,7 @@
 package IT2D.inheritance;
 
 public class Person {
-   private String name;
+   protected String name;
    private int age;
    private String address;
 

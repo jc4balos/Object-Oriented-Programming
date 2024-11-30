@@ -2,22 +2,8 @@ package IT2A.polymorphism;
 
 public class Main {
     public static void main(String[] args) {
-        Animal dog = new Animal();
-        dog.makeSound();
+        Student study = new Student("Giro");
+        System.out.println(study.returnFullName());
 
-
-    }
-}
-class Animal {
-    void makeSound(){
-
-        System.out.println("Animal makes a sound");
-    }
-}
-
-class Dog extends Animal{
-    @Override
-    void makeSound(){
-        System.out.println("Arf Arf");
     }
 }

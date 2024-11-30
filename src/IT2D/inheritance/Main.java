@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        Scanner scn = new Scanner(System.in);
-        System.out.print("Section: ");
-        int section = scn.nextInt();
+//        Scanner scn = new Scanner(System.in);
+//        System.out.print("Section: ");
+//        int section = scn.nextInt();
+//
+//        Scanner scn2 = new Scanner(System.in);
+//        System.out.print("Course: ");
+//        String course = scn2.nextLine();
+//
+//
+//        Student bal = new Student(section,course);
+//        bal.printData();
 
-        Scanner scn2 = new Scanner(System.in);
-        System.out.print("Course: ");
-        String course = scn2.nextLine();
-
-
-        Student bal = new Student(section,course);
-        bal.printData();
-
-
+        Person person = new Person("Domilyn",19,"kanto");
+        System.out.println(person.name);
 
     }
 }
